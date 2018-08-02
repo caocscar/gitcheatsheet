@@ -1,4 +1,4 @@
-# gitcheatsheet
+# Git Cheat Sheet
 
 command|description
 ---|---
