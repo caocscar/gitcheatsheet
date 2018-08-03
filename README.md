@@ -13,3 +13,9 @@ git mv [file-original] [file-renamed]|changes the filename and prepares it for c
 git rm [file]|deletes the file from the working directory and stages the deletion
 git rm --cached [file]|removes the files from version control but preserves the file locally
 git init [project-name]|creates a new local repository
+git init|initialize existing directory
+
+## Reference Links
+[Adding an existing project to GitHub using the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line)
+
+
