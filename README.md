@@ -1,21 +1,13 @@
 # Git Cheat Sheet
-
 command|description
 ---|---
-git clone [repo-URL]|downloads a project and its entire version history
-git status|lista ll new or modified files to be committed
-git add [file]|snapshots the file in preparation for versioning
-git commit -m "[commit message]"|records snapshots permanently in version history
-git push [alias] [branch] |uploads all local branch commits to GitHub
-git pull|downloads bookmark history and incorporates changes
-git revert -m 1 <merge-commit>|revert to the first parent of the merge commit on the master branch
-git mv [file-original] [file-renamed]|changes the filename and prepares it for commit
-git rm [file]|deletes the file from the working directory and stages the deletion
-git rm --cached [file]|removes the files from version control but preserves the file locally
-git init [project-name]|creates a new local repository
-git init|initialize existing directory
-
-## Reference Links
-[Adding an existing project to GitHub using the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line)
-
-
+`git branch` | list available and current branches
+`git checkout *branch*` | checkout branch
+`git checkout -b *branch*` | create and checkout new branch
+`git branch -d *branch*` | delete branch
+`git branch -vv` | see which remote, branch is tracking
+`git add .` | add all files for staging
+`git status` | see current status of files
+`git commit -m "message"` | commit files and add message
+`git commit --amend -m "new message"` | amend last commit message (if not pushed to remote already)
+`git reset --soft HEAD~1` | soft reset back 1 commit
