@@ -10,4 +10,5 @@ command|description
 `git status` | see current status of files
 `git commit -m "message"` | commit files and add message
 `git commit --amend -m "new message"` | amend last commit message (if not pushed to remote already)
-`git reset --soft HEAD~1` | soft reset back 1 commit
+`git reset --soft HEAD~1` | soft reset (keep all changes) back 1 commit
+`git reset --hard HEAD~1` | hard reset (discard all changes) back 1 commit
