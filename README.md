@@ -21,7 +21,7 @@ command|description
 `git rebase <branch>` | rebase current branch onto branch
 `git push -f` | force push
 `git diff` | see existing changes
+`git checkout --track origin/<branch>` | checkout remote branch
 
-# Reference
-The Pro Git book (with translations into other languages too)
-https://git-scm.com/book/en/v2
+## Reference
+The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
