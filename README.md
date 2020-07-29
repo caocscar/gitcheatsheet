@@ -4,6 +4,7 @@ command|description
 ---|---
 `git checkout <branch>` | checkout branch
 `git checkout -b <branch>` | create and checkout new branch
+`git checkout --track origin/<branch>` | checkout remote branch
 `git branch` | list available and current branches
 `git branch -d <branch>` | delete branch
 `git branch -u origin/<branch>` | set upstream branch
@@ -21,7 +22,6 @@ command|description
 `git rebase <branch>` | rebase current branch onto branch
 `git push -f` | force push
 `git diff` | see existing changes
-`git checkout --track origin/<branch>` | checkout remote branch
 
 ## Reference
 The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
