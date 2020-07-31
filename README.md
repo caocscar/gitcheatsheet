@@ -3,8 +3,8 @@
 command|description
 ---|---
 `git checkout <branch>` OR `git switch <branch>` | checkout branch
-`git checkout -b <new-branch>` | create and checkout new branch
-`git checkout --track origin/<branch>` | checkout remote branch
+`git checkout -b <new-branch>` OR `git switch -c <new-branch>` | create and checkout new branch
+`git checkout --track <remote>/<branch>` OR `git switch -c <new-branch> --track <remote>/<branch>`| checkout remote branch
 `git branch` | list available and current branches
 `git branch <new-branch>` | create new branch
 `git branch -d <branch>` | delete branch
