@@ -3,7 +3,7 @@
 command|description
 ---|---
 `git checkout <branch>` OR `git switch <branch>` | checkout branch
-`git checkout -b <new-branch>` OR `git switch -c <new-branch>` | create and checkout new branch
+`git checkout -b <new-branch>` OR `git switch -c <new-branch>` | create & checkout new branch
 `git checkout --track <remote>/<branch>` OR `git switch -c <new-branch> --track <remote>/<branch>`| checkout remote branch
 `git branch` | list available and current branches
 `git branch <new-branch>` | create new branch
@@ -15,7 +15,7 @@ command|description
 `git add <filename>` | add filename to staging area
 `git reset <filename>` | unstage filename from staging area
 `git commit -m "message"` | commit files and add message
-`git commit -am "message"` | add and commit files (in one command) and add message
+`git commit -am "message"` | add & commit files and add message
 `git commit --amend -m "new-message"` | amend last commit message (if not pushed to remote already)
 `git reset --soft HEAD~1` | soft reset (keep all changes) back 1 commit
 `git reset --hard HEAD~1` | hard reset (discard all changes) back 1 commit
