@@ -13,10 +13,10 @@ command|description
 `git branch -vv` | see which remote branch the current branch is tracking
 `git status` | see current status of files
 `git add <filename>` | add filename to staging area
-`git reset <filename>` | unstage filename from staging area
 `git commit -m "message"` | commit files and add message
 `git commit -am "message"` | add & commit files and add message
 `git commit --amend -m "new-message"` | amend last commit message (if not pushed to remote already)
+`git reset <filename>` | unstage filename from staging area
 `git reset --soft HEAD~1` | soft reset (keep all changes) back 1 commit
 `git reset --hard HEAD~1` | hard reset (discard all changes) back 1 commit
 `git merge <branch>` | merge branch into current branch
