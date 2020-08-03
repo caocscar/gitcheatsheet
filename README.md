@@ -26,6 +26,8 @@ command|description
 `git stash` | stash working directory
 `git stash list` | list stashes
 `git stash pop` | pop stash
+`git stash drop stash@{index}` | delete stash
+`git stash clear` | delete all stashes
 
 ## Reference
 The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
