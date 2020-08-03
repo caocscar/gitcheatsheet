@@ -10,7 +10,7 @@ command|description
 `git branch -d <branch>` | delete branch
 `git branch -u origin/<branch>` | set upstream branch
 `git branch -m <newname>` | rename git branch
-`git branch -vv` | see which remote, branch is tracking
+`git branch -vv` | see which remotec current branch is tracking
 `git status` | see current status of files
 `git add <filename>` | add filename to staging area
 `git reset <filename>` | unstage filename from staging area
