@@ -29,6 +29,7 @@ command|description
 `git stash drop stash@{index}` | delete stash
 `git stash clear` | delete all stashes
 `git tag` | list existing tags
+`git tag <tag-name>` | create lightweight tag
 `git tag -a <tag-name> -m "<tag-message>"` | create annotated tag with message at current commit
 `git tag -a <tag-name> -m "<tag-message>" commit_id` | create annotated tag with message at specific commit id
 `git show <tag-name>` | show tag
@@ -36,6 +37,7 @@ command|description
 `git push origin --tags` | push all tags to remote
 `git tag -d <tag-name>` | delete tag
 `git push origin --delete <tag-name>` | delete tag on remote
+`git log --pretty=oneline` | view commit history
 
 ## Reference
 The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
