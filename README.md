@@ -10,7 +10,7 @@ command|description
 `git branch -d <branch>` | delete branch
 `git branch -u origin/<branch>` | set upstream branch
 `git branch -m <newname>` | rename git branch
-`git branch -vv` | see which remotec current branch is tracking
+`git branch -vv` | see which remote branch the current branch is tracking
 `git status` | see current status of files
 `git add <filename>` | add filename to staging area
 `git reset <filename>` | unstage filename from staging area
@@ -28,6 +28,14 @@ command|description
 `git stash pop` | pop stash
 `git stash drop stash@{index}` | delete stash
 `git stash clear` | delete all stashes
+`git tag` | list existing tags
+`git tag -a <tag-name> -m "<tag-message>"` | create annotated tag with message at current commit
+`git tag -a <tag-name> -m "<tag-message>" commit_id` | create annotated tag with message at specific commit id
+`git show <tag-name>` | show tag
+`git push origin <tag-name>` | push tag to remote
+`git push origin --tags` | push all tags to remote
+`git tag -d <tag-name>` | delete tag
+`git push origin --delete <tag-name>` | delete tag on remote
 
 ## Reference
 The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
