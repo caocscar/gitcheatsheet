@@ -32,10 +32,10 @@ command|description
 `git tag <tag-name>` | create lightweight tag
 `git tag -a <tag-name> -m "<tag-message>"` | create annotated tag with message at current commit
 `git tag -a <tag-name> -m "<tag-message>" commit_id` | create annotated tag with message at specific commit id
+`git tag -d <tag-name>` | delete tag
 `git show <tag-name>` | show tag
 `git push origin <tag-name>` | push tag to remote
 `git push origin --tags` | push all tags to remote
-`git tag -d <tag-name>` | delete tag
 `git push origin --delete <tag-name>` | delete tag on remote
 `git log --pretty=oneline` | view commit history
 
