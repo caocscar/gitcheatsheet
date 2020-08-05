@@ -38,6 +38,7 @@ command|description
 `git push origin --tags` | push all tags to remote
 `git push origin --delete <tag-name>` | delete tag on remote
 `git log --pretty=oneline` | view commit history
+`git version` | list git version
 
 ## Reference
 The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
