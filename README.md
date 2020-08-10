@@ -34,11 +34,17 @@ command|description
 `git tag -a <tag-name> -m "<tag-message>" commit_id` | create annotated tag with message at specific commit id
 `git tag -d <tag-name>` | delete tag
 `git show <tag-name>` | show tag
-`git push origin <tag-name>` | push tag to remote
-`git push origin --tags` | push all tags to remote
-`git push origin --delete <tag-name>` | delete tag on remote
+`git push <remote> <tag-name>` | push tag to remote
+`git push <remote> --tags` | push all tags to remote
+`git push <remote> --delete <tag-name>` | delete tag on remote
 `git log --pretty=oneline` | view commit history
 `git version` | list git version
+`git init` | initialize git repo in current directory
+`git remote` | list short names of each remote handle
+`git remote -v` | list urls for each short names of each remote handle
+`git remote add <short-name> <url>` | add remote repository
+`git remote show <remote>` | show information about a remote
+`git fetch <remote>` | pulls down all data from remote for inspection or merging
 
 ## Reference
 The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
