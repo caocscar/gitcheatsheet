@@ -48,7 +48,7 @@ command|description
 `git fetch <remote>` | pulls down all data from remote for inspection or merging
 
 shorthand|switch
----|---
+:---:|---
 -d|--delete
 -f|--force
 -m|--move
