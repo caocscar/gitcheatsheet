@@ -47,5 +47,21 @@ command|description
 `git remote show <remote>` | show information about a remote
 `git fetch <remote>` | pulls down all data from remote for inspection or merging
 
+shorthand|switch
+---|---
+-d|--delete
+-f|--force
+-m|--move
+-c|--copy
+-i|--ignore-case
+-r|--remotes
+-a|--all
+-l|--list
+-v,-vv|--verbose
+-q|--quiet
+-t|--track
+-u <upstream>|--set-upstream-to=<upstream>
+  
+
 ## Reference
 The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
