@@ -60,7 +60,7 @@ shorthand|switch
 -v,-vv|--verbose
 -q|--quiet
 -t|--track
--u <upstream>|--set-upstream-to=<upstream>
+-u <_upstream>|--set-upstream-to=<_upstream>
   
 
 ## Reference
