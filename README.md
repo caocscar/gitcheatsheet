@@ -8,6 +8,7 @@ command|description
 `git branch` | list available and current branches
 `git branch <new-branch>` | create new branch
 `git branch -d <branch>` | delete branch
+`git push origin --delete <branch>` | delete remote branch
 `git branch -u origin/<branch>` | set upstream branch
 `git branch -m <newname>` | rename git branch
 `git branch -vv` | see which remote branch the current branch is tracking
