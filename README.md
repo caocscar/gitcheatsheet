@@ -38,6 +38,7 @@ command|description
 `git push <remote> <tag-name>` | push tag to remote
 `git push <remote> --tags` | push all tags to remote
 `git push <remote> --delete <tag-name>` | delete tag on remote
+`git push -u <remote> <branch>` | set upstream branch and push to it
 `git log --pretty=oneline` | view commit history
 `git version` | list git version
 `git init` | initialize git repo in current directory
