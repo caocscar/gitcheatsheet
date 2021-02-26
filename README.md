@@ -48,7 +48,7 @@ command|description
 `git remote show <remote>` | show information about a remote
 `git fetch <remote>` | pulls down all data from remote for inspection or merging
 `git rm <filename>` | removes files from the working tree and from the index
-`git cherry-pick commitSha` | cherry-pick specific commit to current working HEAD
+`git cherry-pick <commitSha>` | cherry-pick specific commit to current working HEAD
 
 shorthand|switch
 :---:|---
