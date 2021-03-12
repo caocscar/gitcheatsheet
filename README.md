@@ -20,6 +20,7 @@ command|description
 `git reset <filename>` | unstage filename from staging area
 `git reset --soft HEAD~1` | soft reset (keep all changes) back 1 commit
 `git reset --hard HEAD~1` | hard reset (discard all changes) back 1 commit
+`git reset --hard` | hard reset (discard all local changes)
 `git merge <branch>` | merge branch into current branch
 `git rebase <branch>` | rebase current branch onto branch
 `git push -f` | force push
