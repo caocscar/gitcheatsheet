@@ -21,6 +21,7 @@ command|description
 `git reset --soft HEAD~1` | soft reset (keep all changes) back 1 commit
 `git reset --hard HEAD~1` | hard reset (discard all changes) back 1 commit
 `git reset --hard` | hard reset (discard all local changes)
+`git clean -fd` | remove untracked files from working tree (force options with recursive directories)
 `git merge <branch>` | merge branch into current branch
 `git rebase <branch>` | rebase current branch onto branch
 `git push -f` | force push
