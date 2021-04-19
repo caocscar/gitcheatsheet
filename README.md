@@ -5,6 +5,7 @@ command|description
 `git checkout <branch>` OR `git switch <branch>` | checkout branch
 `git checkout -b <new-branch>` OR `git switch -c <new-branch>` | create & checkout new branch
 `git checkout --track <remote>/<branch>` OR `git switch -c <new-branch> --track <remote>/<branch>`| checkout remote branch
+`git checkout -- <file>` | discard changes in working directory
 `git branch` | list available and current branches
 `git branch <new-branch>` | create new branch
 `git branch -d <branch>` | delete branch
@@ -21,6 +22,7 @@ command|description
 `git reset --soft HEAD~1` | soft reset (keep all changes) back 1 commit
 `git reset --hard HEAD~1` | hard reset (discard all changes) back 1 commit
 `git reset --hard` | hard reset (discard all local changes)
+`git reset HEAD <filename>` | unstage changes
 `git clean -fd` | remove untracked files from working tree (force options with recursive directories)
 `git merge <branch>` | merge branch into current branch
 `git rebase <branch>` | rebase current branch onto branch
