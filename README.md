@@ -26,6 +26,7 @@ command|description
 `git clean -fd` | remove untracked files from working tree (force options with recursive directories)
 `git merge <branch>` | merge branch into current branch
 `git rebase <branch>` | rebase current branch onto branch
+`git rebase --abort` | check out the original branch and stop rebasing 
 `git push -f` | force push
 `git diff` | see existing changes
 `git stash` | stash working directory
