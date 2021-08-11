@@ -23,6 +23,7 @@ command|description
 `git reset --hard HEAD~1` | hard reset (discard all changes) back 1 commit
 `git reset --hard` | hard reset (discard all local changes)
 `git reset HEAD <filename>` | unstage changes
+`git revert <commitSha>` | revert specific commit
 `git clean -fd` | remove untracked files from working tree (force options with recursive directories)
 `git merge <branch>` | merge branch into current branch
 `git rebase <branch>` | rebase current branch onto branch
