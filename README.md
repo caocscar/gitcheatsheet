@@ -40,12 +40,14 @@ command|description
 `git tag -a <tag-name> -m "<tag-message>"` | create annotated tag with message at current commit
 `git tag -a <tag-name> -m "<tag-message>" commit_id` | create annotated tag with message at specific commit id
 `git tag -d <tag-name>` | delete tag
+`git show <commitSha>` | show commit with changes
 `git show <tag-name>` | show tag
 `git push <remote> <tag-name>` | push tag to remote
 `git push <remote> --tags` | push all tags to remote
 `git push <remote> --delete <tag-name>` | delete tag on remote
 `git push -u <remote> <branch>` | set upstream branch and push to it
 `git log --pretty=oneline` | view commit history
+`git log -p` | view commit history with changes shown
 `git version` | list git version
 `git init` | initialize git repo in current directory
 `git remote` | list short names of each remote handle
