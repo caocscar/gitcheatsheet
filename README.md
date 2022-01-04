@@ -30,6 +30,7 @@ command|description
 `git rebase --abort` | check out the original branch and stop rebasing 
 `git push -f` | force push
 `git diff` | see existing changes
+`git diff <branch1> <branch2> -- <file> | see file diff between two branches
 `git stash` | stash working directory
 `git stash list` | list stashes
 `git stash pop` | pop stash
