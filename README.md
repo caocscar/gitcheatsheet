@@ -11,7 +11,8 @@ command|description
 `git branch -d <branch>` | delete branch
 `git push origin --delete <branch>` | delete remote branch
 `git branch -u origin/<branch>` | set upstream branch
-`git branch -m <newname>` | rename git branch
+`git branch -m <newname>` | rename current git branch
+`git branch -m <branch> <newname>` | rename non-current git branch
 `git branch -vv` | see which remote branch the current branch is tracking
 `git status` | see current status of files
 `git add <filename>` | add filename to staging area
