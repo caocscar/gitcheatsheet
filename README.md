@@ -76,5 +76,12 @@ shorthand|switch
 -u \<upstream>|--set-upstream-to=\<upstream>
   
 
+## Renaming default branch from Master to Main
+1. `git branch -m master main` on local machine.  
+2. Gitlab -> settings -> repository -> Default branch -> main.  
+3. [Optional] Make changes to protected branches.  
+4. `git push origin --delete master` to remove remote master branch.  
+
+
 ## Reference
 The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
