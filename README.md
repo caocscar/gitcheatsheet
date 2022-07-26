@@ -16,6 +16,7 @@ command|description
 `git branch -vv` | see which remote branch the current branch is tracking
 `git status` | see current status of files
 `git add <filename>` | add filename to staging area
+`git add --patch <filename>` | add hunks of code to staging area
 `git commit -m "message"` | commit files and add message
 `git commit -am "message"` | add & commit files and add message
 `git commit --amend -m "new-message"` | amend last commit message (if not pushed to remote already)
