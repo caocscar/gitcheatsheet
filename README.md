@@ -49,6 +49,7 @@ command|description
 `git push <remote> --tags` | push all tags to remote
 `git push <remote> --delete <tag-name>` | delete tag on remote
 `git push -u <remote> <branch>` | set upstream branch and push to it
+`git branch --set-upstream-to origin/<branch>` | set current branch to track upstream origin branch
 `git log --pretty=oneline` | view commit history
 `git log -p` | view commit history with changes shown
 `git version` | list git version
@@ -76,13 +77,11 @@ shorthand|switch
 -t|--track
 -u \<upstream>|--set-upstream-to=\<upstream>
   
-
 ## Renaming default branch from Master to Main
 1. `git branch -m master main` on local machine.  
 2. Gitlab -> settings -> repository -> Default branch -> main (you might have to push main onto origin).  
-3. [Optional] Make changes to protected branches.  
-4. `git push origin --delete master` to remove remote master branch.  
-
+3. [Optional] Make changes to protected branches. 
+4. `git push origin --delete master` to remove remote master branch. Remove master branch from protected status as required.
 
 ## Reference
 The [Pro Git book](https://git-scm.com/book/en/v2) (with translations into other languages too)  
