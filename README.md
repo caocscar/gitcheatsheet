@@ -58,6 +58,7 @@ command|description
 `git remote -v` | list urls for each short names of each remote handle
 `git remote add <short-name> <url>` | add remote repository
 `git remote show <remote>` | show information about a remote
+`git remote set-url origin <url>/<repo.git>` |  set new url after transfer of repository
 `git fetch <remote>` | pulls down all data from remote for inspection or merging
 `git rm <filename>` | removes files from the working tree and from the index
 `git cherry-pick <commitSha>` | cherry-pick specific commit to current working HEAD
