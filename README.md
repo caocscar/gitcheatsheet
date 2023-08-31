@@ -63,6 +63,7 @@ command|description
 `git fetch <remote>` | pulls down all data from remote for inspection or merging
 `git rm <filename>` | removes files from the working tree and from the index
 `git cherry-pick <commitSha>` | cherry-pick specific commit to current working HEAD
+`git reflog` | displays log of all the changes made to the repo including changes made to branches, commits, and merges 
 
 shorthand|switch
 :---:|---
